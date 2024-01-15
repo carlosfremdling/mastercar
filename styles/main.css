@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #242424;
+    padding: 2rem 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+header p, header p > span {
+    font-style: italic;
+}
+
+header p > span {
+    color: #cf1616;
+}
+
+header p, .container ul li a , .container ul li a:hover {
+    font-weight: 700;
+}
+
+header .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container ul li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.container ul li a {
+    color: #ffffff;
+    transition: .5s;
+}
+
+.container ul li a:hover {
+    color: #cf1616;
+  
+}
+
+main .hero-banner {
+    background: url("../assets/hero-banner.jpg") no-repeat center;
+    object-fit: contain;
+    height: 100vh;
+}
+
+#about, #contact {
+    margin-top: 4rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+   
+}
+
+section p {
+    margin-bottom: .5rem;
+}
+
+
+#about .container img {
+    height: 25rem;
+    border-radius: 0.5rem;
+}
+
+#about .about-info {
+    margin-left: 5rem;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form input, form textarea, form button {
+    display: block;
+    width: 20rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    outline: none;
+}
+
+form textarea {
+    resize: none;
+    height: 11.25rem;
+}
+
+form button {
+    background-color: #242424;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+form button:hover {
+    background-color: #cf1616;
+}
+
+
+.social-links li {
+    display: inline;
+    margin-right: 0.5rem;
+ }
+ 
+ .social-links img {
+     height: 1.5rem;
+ }
+
+ footer {
+    background-color: #242424;
+    padding: 1rem 0;
+    margin-top: 5rem;
+ }
+
+
+ footer p {
+    color: #FFF;
+    text-align: center;
+ }
+
+
+
